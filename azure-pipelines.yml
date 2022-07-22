@@ -33,7 +33,7 @@ steps:
     sshEndpoint: 'POC-VM'
     runOptions: 'inline'
     inline: |
-      /home/microsoft/apache-tomcat/bin/startdown.sh stop
+      /home/microsoft/apache-tomcat/bin/shutdown.sh stop
       /home/microsoft/apache-tomcat/bin/startup.sh start
     readyTimeout: '20000'
   
