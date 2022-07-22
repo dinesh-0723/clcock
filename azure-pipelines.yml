@@ -24,7 +24,7 @@ steps:
   inputs:
     sshEndpoint: 'POC-VM'
     sourceFolder: '$(Agent.BuildDirectory)'
-    contents: '**/*.jar'
+    contents: '**/*.war'
     targetFolder: '/home/microsoft/apache-tomcat/webapps'
     readyTimeout: '20000'
     flattenFolders: true
